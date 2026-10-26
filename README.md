@@ -8,7 +8,7 @@ Student onboarding for first-year engineering students. Verify who you are, and 
 section, roll number, classroom, subject teachers and weekly timetable — before you ever
 walk onto campus.
 
-[Live site](https://classfind.site) · [Admin](https://classfind.site/admin)
+[Live site](https://classfind.site)
 
 </div>
 
@@ -39,8 +39,6 @@ CLASSFIND turns that into one lookup.
   print-to-PDF, and a shareable class card for the class group.
 - **Join the class group.** The WhatsApp invite is delivered to the verified email — it is
   never exposed to the browser. Teachers can also project a QR generated from the same link.
-- **Admin panel.** Students, sections, groups, faculty and assignments, timetable, and an
-  audit log of every change.
 
 ## Screenshots
 
@@ -48,9 +46,7 @@ CLASSFIND turns that into one lookup.
 | --- | --- |
 | ![Campus](docs/campus.png) | ![Timetable](docs/timetable.png) |
 
-| Admin | Auditorium |
-| --- | --- |
-| ![Admin](docs/admin.png) | ![Auditorium](docs/auditorium.png) |
+![Auditorium](docs/auditorium.png)
 
 ## Architecture
 
@@ -69,7 +65,7 @@ Browser
 ```
 
 - **Next.js 15** (App Router) and **TypeScript**, deployed to **Cloudflare Workers** through
-  **OpenNext**. Local development uses `node:sqlite`; production uses **D1**.
+  **OpenNext**, backed by **D1** (SQLite).
 - **Tailwind CSS v4** with a small design-token layer (paper / carbon / amber) scoped per
   page section.
 - **three.js** for the campus tour.
@@ -114,28 +110,6 @@ If you fork this to run it for a real cohort, keep those properties.
 · `Cloudflare Workers` · `OpenNext` · `xlsx` (student import) · `qrcode` · `PyMuPDF`
 (timetable parsing)
 
-## Running locally
-
-```bash
-npm install
-cp .env.example .env.local     # set ADMIN_PASSWORD and AUTH_SECRET
-npm run dev
-```
-
-Open http://localhost:3000. The admin panel is at `/admin`.
-
-### Environment
-
-| Variable | Purpose |
-| --- | --- |
-| `ADMIN_PASSWORD` | Admin panel password |
-| `AUTH_SECRET` | Signs the admin session cookie |
-| `RESEND_API_KEY` / `BREVO_API_KEY` | Email delivery for invites (optional; simulated if absent) |
-| `FAST2SMS_API_KEY` / `MSG91_AUTH_KEY` / `TWILIO_*` | OTP delivery (optional; simulated if absent) |
-
-Without provider keys the flows still run end-to-end and print a simulated OTP or email
-preview, so the app is testable with no third-party accounts.
-
 ## Deployment
 
 ```bash
@@ -164,7 +138,7 @@ python scripts/parse_timetable.py path/to/time_table.pdf
 
 ```
 app/            routes, API handlers
-components/     UI (film scroll, campus reel, faculty deck, admin)
+components/     UI (film scroll, campus reel, faculty deck)
 lib/            db, auth, importer, timetable export, share card
 scripts/        seed + timetable parsers (Python)
 data/seed/      synthetic student seed + generated timetable
