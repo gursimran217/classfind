@@ -44,15 +44,13 @@ CLASSFIND turns that into one lookup.
 
 ## Screenshots
 
-| Campus | Teachers |
+| Campus | Timetable |
 | --- | --- |
-| ![Campus](docs/campus.png) | ![Teachers](docs/teachers.png) |
+| ![Campus](docs/campus.png) | ![Timetable](docs/timetable.png) |
 
-| Timetable | Admin |
+| Admin | Auditorium |
 | --- | --- |
-| ![Timetable](docs/timetable.png) | ![Admin](docs/admin.png) |
-
-![Auditorium](docs/auditorium.png)
+| ![Admin](docs/admin.png) | ![Auditorium](docs/auditorium.png) |
 
 ## Architecture
 
