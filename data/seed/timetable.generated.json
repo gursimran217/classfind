@@ -1,0 +1,431 @@
+{
+ "source": "time_table_G1I.pdf",
+ "section": "G1I",
+ "room": "416",
+ "floor": 4,
+ "semester": "B. Tech First Year Odd Semester 2026-27",
+ "coordinator": "Dr. Neeraj Sharma",
+ "periods": [
+  {
+   "period": 1,
+   "start": "09:00",
+   "end": "10:00"
+  },
+  {
+   "period": 2,
+   "start": "10:00",
+   "end": "11:00"
+  },
+  {
+   "period": 3,
+   "start": "11:00",
+   "end": "12:00"
+  },
+  {
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00"
+  },
+  {
+   "period": 5,
+   "start": "02:00",
+   "end": "02:50"
+  },
+  {
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40"
+  },
+  {
+   "period": 7,
+   "start": "03:40",
+   "end": "04:30"
+  }
+ ],
+ "days": [
+  "MONDAY",
+  "TUESDAY",
+  "WEDNESDAY",
+  "THURSDAY",
+  "FRIDAY",
+  "SATURDAY"
+ ],
+ "labFaculty": {
+  "ASE1S0301": "Dr. Neeraj Sharma",
+  "CSE1G0101": "PSP7",
+  "MEE1G0101": "Mr. Mahesh Pandey",
+  "EEE1G0101": "Mr. Nitish Kumar /Mr. B. Maurya"
+ },
+ "slots": [
+  {
+   "day": 0,
+   "period": 1,
+   "start": "09:00",
+   "end": "10:00",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 0,
+   "period": 2,
+   "start": "10:00",
+   "end": "11:00",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 0,
+   "period": 3,
+   "start": "11:00",
+   "end": "12:00",
+   "code": "PSP",
+   "subject": "Problem Solving & Programming",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 0,
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00",
+   "code": "EE",
+   "subject": "Electrical & Electronics Engineering",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 0,
+   "period": 5,
+   "start": "02:00",
+   "end": "02:50",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 0,
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40",
+   "code": "TEP",
+   "subject": "Technology Exploration & Product Engineering",
+   "kind": "lecture",
+   "group": "T1"
+  },
+  {
+   "day": 0,
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": "T2"
+  },
+  {
+   "day": 0,
+   "period": 7,
+   "start": "03:40",
+   "end": "04:30",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 1,
+   "period": 1,
+   "start": "09:00",
+   "end": "10:00",
+   "code": "TEP",
+   "subject": "Technology Exploration & Product Engineering",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 1,
+   "period": 2,
+   "start": "10:00",
+   "end": "11:00",
+   "code": "TEP",
+   "subject": "Technology Exploration & Product Engineering",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 1,
+   "period": 3,
+   "start": "11:00",
+   "end": "12:00",
+   "code": "EVS",
+   "subject": "Environment Studies",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 1,
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": "T1"
+  },
+  {
+   "day": 1,
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00",
+   "code": "TEP",
+   "subject": "Technology Exploration & Product Engineering",
+   "kind": "lecture",
+   "group": "T2"
+  },
+  {
+   "day": 1,
+   "period": 5,
+   "start": "02:00",
+   "end": "02:50",
+   "code": "PSP",
+   "subject": "Problem Solving & Programming",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 1,
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40",
+   "code": "EE",
+   "subject": "Electrical & Electronics Engineering",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 1,
+   "period": 7,
+   "start": "03:40",
+   "end": "04:30",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 1,
+   "start": "09:00",
+   "end": "10:00",
+   "code": "EE",
+   "subject": "Electrical & Electronics Engineering",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 2,
+   "start": "10:00",
+   "end": "11:00",
+   "code": "DT",
+   "subject": "Design Thinking",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 3,
+   "start": "11:00",
+   "end": "12:00",
+   "code": "PPS",
+   "subject": "Problem Solving & Programming",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00",
+   "code": "PPS",
+   "subject": "Problem Solving & Programming",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 5,
+   "start": "02:00",
+   "end": "02:50",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40",
+   "code": "BC",
+   "subject": "Business Communication",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 2,
+   "period": 7,
+   "start": "03:40",
+   "end": "04:30",
+   "code": "EVS",
+   "subject": "Environment Studies",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "start": "09:00",
+   "end": "10:00",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 2,
+   "start": "10:00",
+   "end": "11:00",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 3,
+   "start": "11:00",
+   "end": "12:00",
+   "code": "BC",
+   "subject": "Business Communication",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00",
+   "code": "PSP",
+   "subject": "Problem Solving & Programming",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 5,
+   "start": "02:00",
+   "end": "02:50",
+   "code": "EE",
+   "subject": "Electrical & Electronics Engineering",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 3,
+   "period": 7,
+   "start": "03:40",
+   "end": "04:30",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 1,
+   "start": "09:00",
+   "end": "10:00",
+   "code": "EE",
+   "subject": "Electrical & Electronics Engineering",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 2,
+   "start": "10:00",
+   "end": "11:00",
+   "code": "EE",
+   "subject": "Electrical & Electronics Engineering",
+   "kind": "lab",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 3,
+   "start": "11:00",
+   "end": "12:00",
+   "code": "EVS",
+   "subject": "Environment Studies",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 4,
+   "start": "12:00",
+   "end": "01:00",
+   "code": "DT",
+   "subject": "Design Thinking",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 5,
+   "start": "02:00",
+   "end": "02:50",
+   "code": "CALCULAS",
+   "subject": "Calculus & Laplace Transforms",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 6,
+   "start": "02:50",
+   "end": "03:40",
+   "code": "PHY",
+   "subject": "Physics",
+   "kind": "lecture",
+   "group": null
+  },
+  {
+   "day": 4,
+   "period": 7,
+   "start": "03:40",
+   "end": "04:30",
+   "code": "BC",
+   "subject": "Business Communication",
+   "kind": "lecture",
+   "group": null
+  }
+ ]
+}

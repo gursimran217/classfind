@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "classfind",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2024-12-30",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "classfind_db",
+      "database_name": "classfind-db",
+      "database_id": "f1f6e168-303f-449f-8bed-033b64d31e51"
+    }
+  ],
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "classfind.site", "custom_domain": true },
+    { "pattern": "www.classfind.site", "custom_domain": true }
+  ],
+  "env": {
+    "dev": {
+      "name": "classfind-dev",
+      "workers_dev": true,
+      "routes": [],
+      "d1_databases": [
+        {
+          "binding": "classfind_db",
+          "database_name": "classfind-db-dev",
+          "database_id": "c64beb39-d9c8-4828-a463-5a4094c177a6"
+        }
+      ]
+    }
+  }
+}

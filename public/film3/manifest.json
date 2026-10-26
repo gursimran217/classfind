@@ -1,0 +1,47 @@
+﻿{
+    "mobile":  {
+                   "w":  405,
+                   "fullBleed":  true,
+                   "aspect":  "9:16",
+                   "h":  720
+               },
+    "scenes":  [
+                   {
+                       "from":  0,
+                       "to":  0.16,
+                       "id":  "gate"
+                   },
+                   {
+                       "from":  0.16,
+                       "to":  0.26,
+                       "id":  "cloud-a"
+                   },
+                   {
+                       "from":  0.26,
+                       "to":  0.58,
+                       "id":  "student"
+                   },
+                   {
+                       "from":  0.58,
+                       "to":  0.68,
+                       "id":  "cloud-b"
+                   },
+                   {
+                       "from":  0.68,
+                       "to":  1,
+                       "id":  "classroom"
+                   }
+               ],
+    "fps":  12,
+    "sourceNote":  "16:9 clips used for desktop; 9:16 for mobile. Gate 16:9 source is 720p, which caps desktop resolution.",
+    "desktop":  {
+                    "w":  1280,
+                    "fullBleed":  true,
+                    "aspect":  "16:9",
+                    "h":  720
+                },
+    "frames":  {
+                   "d":  183,
+                   "m":  180
+               }
+}

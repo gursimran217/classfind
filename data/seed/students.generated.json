@@ -1,0 +1,170 @@
+[
+ {
+  "name": "Aarav Mehta",
+  "mobile": "9000000001",
+  "program": "BTECH CSE",
+  "section": "G1A",
+  "rollNumber": "G1A01"
+ },
+ {
+  "name": "Isha Verma",
+  "mobile": "9000000002",
+  "program": "BTECH CSE",
+  "section": "G1B",
+  "rollNumber": "G1B01"
+ },
+ {
+  "name": "Rohan Gupta",
+  "mobile": "9000000003",
+  "program": "BTECH CSE",
+  "section": "G1I",
+  "rollNumber": "G1I01"
+ },
+ {
+  "name": "Sneha Iyer",
+  "mobile": "9000000004",
+  "program": "BTECH CSDS",
+  "section": "G2A",
+  "rollNumber": "G2A01"
+ },
+ {
+  "name": "Kabir Nair",
+  "mobile": "9000000005",
+  "program": "BTECH CSE",
+  "section": "G1A",
+  "rollNumber": "G1A02"
+ },
+ {
+  "name": "Ananya Rao",
+  "mobile": "9000000006",
+  "program": "BTECH CSE",
+  "section": "G1B",
+  "rollNumber": "G1B02"
+ },
+ {
+  "name": "Vihaan Joshi",
+  "mobile": "9000000007",
+  "program": "BTECH CSE",
+  "section": "G1I",
+  "rollNumber": "G1I02"
+ },
+ {
+  "name": "Diya Kapoor",
+  "mobile": "9000000008",
+  "program": "BTECH CSDS",
+  "section": "G2A",
+  "rollNumber": "G2A02"
+ },
+ {
+  "name": "Arjun Sharma",
+  "mobile": "9000000009",
+  "program": "BTECH CSE",
+  "section": "G1A",
+  "rollNumber": "G1A03"
+ },
+ {
+  "name": "Meera Patel",
+  "mobile": "9000000010",
+  "program": "BTECH CSE",
+  "section": "G1B",
+  "rollNumber": "G1B03"
+ },
+ {
+  "name": "Aditya Menon",
+  "mobile": "9000000011",
+  "program": "BTECH CSE",
+  "section": "G1I",
+  "rollNumber": "G1I03"
+ },
+ {
+  "name": "Riya Desai",
+  "mobile": "9000000012",
+  "program": "BTECH CSDS",
+  "section": "G2A",
+  "rollNumber": "G2A03"
+ },
+ {
+  "name": "Karan Malhotra",
+  "mobile": "9000000013",
+  "program": "BTECH CSE",
+  "section": "G1A",
+  "rollNumber": "G1A04"
+ },
+ {
+  "name": "Nisha Reddy",
+  "mobile": "9000000014",
+  "program": "BTECH CSE",
+  "section": "G1B",
+  "rollNumber": "G1B04"
+ },
+ {
+  "name": "Dev Agarwal",
+  "mobile": "9000000015",
+  "program": "BTECH CSE",
+  "section": "G1I",
+  "rollNumber": "G1I04"
+ },
+ {
+  "name": "Tara Bhatt",
+  "mobile": "9000000016",
+  "program": "BTECH CSDS",
+  "section": "G2A",
+  "rollNumber": "G2A04"
+ },
+ {
+  "name": "Yash Chauhan",
+  "mobile": "9000000017",
+  "program": "BTECH CSE",
+  "section": "G1A",
+  "rollNumber": "G1A05"
+ },
+ {
+  "name": "Priya Sethi",
+  "mobile": "9000000018",
+  "program": "BTECH CSE",
+  "section": "G1B",
+  "rollNumber": "G1B05"
+ },
+ {
+  "name": "Ishaan Kohli",
+  "mobile": "9000000019",
+  "program": "BTECH CSE",
+  "section": "G1I",
+  "rollNumber": "G1I05"
+ },
+ {
+  "name": "Sara Khan",
+  "mobile": "9000000020",
+  "program": "BTECH CSDS",
+  "section": "G2A",
+  "rollNumber": "G2A05"
+ },
+ {
+  "name": "Manav Bhatia",
+  "mobile": "9000000021",
+  "program": "BTECH CSE",
+  "section": "G1A",
+  "rollNumber": "G1A06"
+ },
+ {
+  "name": "Zoya Ali",
+  "mobile": "9000000022",
+  "program": "BTECH CSE",
+  "section": "G1B",
+  "rollNumber": "G1B06"
+ },
+ {
+  "name": "Rahul Yadav",
+  "mobile": "9000000023",
+  "program": "BTECH CSE",
+  "section": "G1I",
+  "rollNumber": "G1I06"
+ },
+ {
+  "name": "Neha Das",
+  "mobile": "9000000024",
+  "program": "BTECH CSDS",
+  "section": "G2A",
+  "rollNumber": "G2A06"
+ }
+]

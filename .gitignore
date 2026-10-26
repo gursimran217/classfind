@@ -1,0 +1,36 @@
+﻿# ---- dependencies ----
+node_modules
+
+# ---- builds ----
+.next
+.open-next
+out
+.netlify
+
+# ---- local state ----
+.wrangler
+backup-current
+classfind.db
+classfind.db-wal
+classfind.db-shm
+
+# ---- secrets ----
+.env
+.env.local
+
+# ---- misc ----
+*.tsbuildinfo
+next-env.d.ts
+*.log
+
+# Real student records are never committed. The repository ships a synthetic
+# seed at data/seed/students.generated.json instead; the import report names a
+# local source file, so it stays out of version control too.
+data/seed/import-report.txt
+# Internal research notes and design mockups stay local. They contain staff
+# contact details and working notes that must not be published.
+GLBAJAJ_*.md
+design-thinking*.html
+CLASSFIND_Design_Thinking.pdf
+netlify.toml
+
