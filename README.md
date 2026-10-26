@@ -124,7 +124,7 @@ cp .env.example .env.local     # set ADMIN_PASSWORD and AUTH_SECRET
 npm run dev
 ```
 
-Open http://localhost:3000. The admin panel is at `/admin`.
+Open 
 
 ### Environment
 
@@ -171,18 +171,7 @@ lib/            db, auth, importer, timetable export, share card
 scripts/        seed + timetable parsers (Python)
 data/seed/      synthetic student seed + generated timetable
 docs/           screenshots
-public/         fonts, images, campus model
-```
-
-## Status and limitations
-
-This is a working prototype, not a finished product.
-
-- Timetable and faculty are seeded for one section (G1I). Other sections show an honest
-  "not uploaded yet" state rather than empty data.
-- The timetable parser targets one PDF template. A different template needs its own
-  coordinate rules.
-- The campus 3D model is large; the first load on a slow connection is heavy.
+public/         fonts, images, campus 
 
 ## License
 
